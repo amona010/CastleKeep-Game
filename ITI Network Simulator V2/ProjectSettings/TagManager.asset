@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Citizen
+  - GM
+  - Attacker_red
+  - Attacker_blue
+  - Attacker_orange
+  - Attacker
+  - DefenseTile
+  - Attacker_gray
+  - BeginDemo
+  - Exit
+  - Panel
+  - MainHost
+  - Host
+  - MainMenu
+  - Page1
+  - Page2
+  - Page3
+  - Page4
+  - Page5
+  - Page6
+  - Page7
+  - Page8
+  - Page9
+  - EnterGame
+  - Cancel
+  - Point
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - noCollision
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Floor
+    uniqueID: 313427101
+    locked: 0
+  - name: Locations
+    uniqueID: 4006709223
+    locked: 0
+  - name: People
+    uniqueID: 3509499915
+    locked: 0
+  - name: UI
+    uniqueID: 2877570963
+    locked: 0

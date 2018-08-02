@@ -1,0 +1,400 @@
+{
+    "maps": [
+        {
+            "name": "SmallNetwork",
+            "rounds": -1,
+			"startingCurrency": 1000,
+			"currencyGainedPerRound": 100,
+			"waves": 3,	
+			"redTileMaximumHealth": 300,
+			"redTileLowHealthAccuracyAttackers": 90,
+			"redTileCriticalHealthAccuracyAttackers": 80,
+			"redTileLowHealthAccuracyCitizens": 95,
+			"redTileCriticalHealthAccuracyCitizens": 90,
+			"orangeTileAccuracyCitizens": 95,
+			"orangeTileAttackerLimit": 5,
+			"attackerProbability": 30,
+            "packetsPerWave": 10,
+            "vertices": [
+                {
+                    "name": "Point9",
+                    "isHost": false,
+                    "isMainHost": false,
+                    "isSpawnPoint": false,
+                    "isSwitch": true,
+                    "hasUpperTile": false,
+                    "hasLowerTile": false,
+                    "hasLeftTile": false,
+                    "hasRightTile": false,
+                    "location": {
+                        "x": 7.1529998779296879,
+                        "y": 1.559000015258789
+                    }
+                },
+                {
+                    "name": "Point13",
+                    "isHost": true,
+                    "isMainHost": false,
+                    "isSpawnPoint": true,
+                    "isSwitch": false,
+                    "hasUpperTile": false,
+                    "hasLowerTile": false,
+                    "hasLeftTile": false,
+                    "hasRightTile": false,
+                    "location": {
+                        "x": -8.800999641418457,
+                        "y": -4.634218692779541
+                    }
+                },
+                {
+                    "name": "Point7",
+                    "isHost": true,
+                    "isMainHost": false,
+                    "isSpawnPoint": false,
+                    "isSwitch": false,
+                    "hasUpperTile": false,
+                    "hasLowerTile": true,
+                    "hasLeftTile": false,
+                    "hasRightTile": true,
+                    "location": {
+                        "x": 1.2518227100372315,
+                        "y": 3.0799999237060549
+                    }
+                },
+                {
+                    "name": "Point1",
+                    "isHost": false,
+                    "isMainHost": false,
+                    "isSpawnPoint": false,
+                    "isSwitch": true,
+                    "hasUpperTile": true,
+                    "hasLowerTile": true,
+                    "hasLeftTile": false,
+                    "hasRightTile": true,
+                    "location": {
+                        "x": -8.83731746673584,
+                        "y": -2.319999933242798
+                    }
+                },
+                {
+                    "name": "Point11",
+                    "isHost": false,
+                    "isMainHost": false,
+                    "isSpawnPoint": false,
+                    "isSwitch": false,
+                    "hasUpperTile": false,
+                    "hasLowerTile": false,
+                    "hasLeftTile": false,
+                    "hasRightTile": false,
+                    "location": {
+                        "x": 3.7771334648132326,
+                        "y": -3.914572238922119
+                    }
+                },
+                {
+                    "name": "Point12",
+                    "isHost": false,
+                    "isMainHost": true,
+                    "isSpawnPoint": false,
+                    "isSwitch": false,
+                    "hasUpperTile": false,
+                    "hasLowerTile": false,
+                    "hasLeftTile": false,
+                    "hasRightTile": false,
+                    "location": {
+                        "x": 7.139999866485596,
+                        "y": -0.05999999865889549
+                    }
+                },
+                {
+                    "name": "Point6",
+                    "isHost": false,
+                    "isMainHost": false,
+                    "isSpawnPoint": false,
+                    "isSwitch": true,
+                    "hasUpperTile": true,
+                    "hasLowerTile": true,
+                    "hasLeftTile": true,
+                    "hasRightTile": true,
+                    "location": {
+                        "x": 1.2805101871490479,
+                        "y": -0.019999999552965165
+                    }
+                },
+                {
+                    "name": "Point14",
+                    "isHost": true,
+                    "isMainHost": false,
+                    "isSpawnPoint": true,
+                    "isSwitch": false,
+                    "hasUpperTile": false,
+                    "hasLowerTile": false,
+                    "hasLeftTile": false,
+                    "hasRightTile": false,
+                    "location": {
+                        "x": -8.8100004196167,
+                        "y": 4.6570000648498539
+                    }
+                },
+                {
+                    "name": "Point16",
+                    "isHost": true,
+                    "isMainHost": false,
+                    "isSpawnPoint": false,
+                    "isSwitch": false,
+                    "hasUpperTile": false,
+                    "hasLowerTile": false,
+                    "hasLeftTile": true,
+                    "hasRightTile": true,
+                    "location": {
+                        "x": 3.7583703994750978,
+                        "y": 0.0
+                    }
+                },
+                {
+                    "name": "Point8",
+                    "isHost": true,
+                    "isMainHost": false,
+                    "isSpawnPoint": false,
+                    "isSwitch": false,
+                    "hasUpperTile": false,
+                    "hasLowerTile": true,
+                    "hasLeftTile": true,
+                    "hasRightTile": false,
+                    "location": {
+                        "x": 7.14300012588501,
+                        "y": 3.0999999046325685
+                    }
+                },
+                {
+                    "name": "Point15",
+                    "isHost": true,
+                    "isMainHost": false,
+                    "isSpawnPoint": true,
+                    "isSwitch": false,
+                    "hasUpperTile": true,
+                    "hasLowerTile": false,
+                    "hasLeftTile": false,
+                    "hasRightTile": false,
+                    "location": {
+                        "x": 3.7909998893737795,
+                        "y": -4.703000068664551
+                    }
+                },
+                {
+                    "name": "Point2",
+                    "isHost": false,
+                    "isMainHost": false,
+                    "isSpawnPoint": false,
+                    "isSwitch": true,
+                    "hasUpperTile": true,
+                    "hasLowerTile": true,
+                    "hasLeftTile": false,
+                    "hasRightTile": true,
+                    "location": {
+                        "x": -8.800000190734864,
+                        "y": 2.319999933242798
+                    }
+                },
+                {
+                    "name": "Point5",
+                    "isHost": false,
+                    "isMainHost": false,
+                    "isSpawnPoint": false,
+                    "isSwitch": true,
+                    "hasUpperTile": true,
+                    "hasLowerTile": true,
+                    "hasLeftTile": false,
+                    "hasRightTile": true,
+                    "location": {
+                        "x": -2.921999931335449,
+                        "y": -0.03799999877810478
+                    }
+                },
+                {
+                    "name": "Point4",
+                    "isHost": true,
+                    "isMainHost": false,
+                    "isSpawnPoint": false,
+                    "isSwitch": false,
+                    "hasUpperTile": true,
+                    "hasLowerTile": false,
+                    "hasLeftTile": true,
+                    "hasRightTile": false,
+                    "location": {
+                        "x": -2.9110000133514406,
+                        "y": -2.3440001010894777
+                    }
+                },
+                {
+                    "name": "Point10",
+                    "isHost": true,
+                    "isMainHost": false,
+                    "isSpawnPoint": false,
+                    "isSwitch": false,
+                    "hasUpperTile": true,
+                    "hasLowerTile": false,
+                    "hasLeftTile": false,
+                    "hasRightTile": true,
+                    "location": {
+                        "x": 1.2400000095367432,
+                        "y": -3.890000104904175
+                    }
+                },
+                {
+                    "name": "Point3",
+                    "isHost": true,
+                    "isMainHost": false,
+                    "isSpawnPoint": false,
+                    "isSwitch": false,
+                    "hasUpperTile": false,
+                    "hasLowerTile": true,
+                    "hasLeftTile": true,
+                    "hasRightTile": false,
+                    "location": {
+                        "x": -2.929574728012085,
+                        "y": 2.341060161590576
+                    }
+                }
+            ],
+            "edges": [
+                {
+                    "v1": "Point9",
+                    "v2": "Point12"
+                },
+                {
+                    "v1": "Point9",
+                    "v2": "Point8"
+                },
+                {
+                    "v1": "Point13",
+                    "v2": "Point1"
+                },
+                {
+                    "v1": "Point7",
+                    "v2": "Point6"
+                },
+                {
+                    "v1": "Point7",
+                    "v2": "Point8"
+                },
+                {
+                    "v1": "Point1",
+                    "v2": "Point13"
+                },
+                {
+                    "v1": "Point1",
+                    "v2": "Point2"
+                },
+                {
+                    "v1": "Point1",
+                    "v2": "Point4"
+                },
+                {
+                    "v1": "Point11",
+                    "v2": "Point15"
+                },
+                {
+                    "v1": "Point11",
+                    "v2": "Point10"
+                },
+                {
+                    "v1": "Point12",
+                    "v2": "Point9"
+                },
+                {
+                    "v1": "Point12",
+                    "v2": "Point16"
+                },
+                {
+                    "v1": "Point6",
+                    "v2": "Point7"
+                },
+                {
+                    "v1": "Point6",
+                    "v2": "Point16"
+                },
+                {
+                    "v1": "Point6",
+                    "v2": "Point5"
+                },
+                {
+                    "v1": "Point6",
+                    "v2": "Point10"
+                },
+                {
+                    "v1": "Point14",
+                    "v2": "Point2"
+                },
+                {
+                    "v1": "Point16",
+                    "v2": "Point12"
+                },
+                {
+                    "v1": "Point16",
+                    "v2": "Point6"
+                },
+                {
+                    "v1": "Point8",
+                    "v2": "Point9"
+                },
+                {
+                    "v1": "Point8",
+                    "v2": "Point7"
+                },
+                {
+                    "v1": "Point15",
+                    "v2": "Point11"
+                },
+                {
+                    "v1": "Point2",
+                    "v2": "Point1"
+                },
+                {
+                    "v1": "Point2",
+                    "v2": "Point14"
+                },
+                {
+                    "v1": "Point2",
+                    "v2": "Point3"
+                },
+                {
+                    "v1": "Point5",
+                    "v2": "Point6"
+                },
+                {
+                    "v1": "Point5",
+                    "v2": "Point4"
+                },
+                {
+                    "v1": "Point5",
+                    "v2": "Point3"
+                },
+                {
+                    "v1": "Point4",
+                    "v2": "Point1"
+                },
+                {
+                    "v1": "Point4",
+                    "v2": "Point5"
+                },
+                {
+                    "v1": "Point10",
+                    "v2": "Point11"
+                },
+                {
+                    "v1": "Point10",
+                    "v2": "Point6"
+                },
+                {
+                    "v1": "Point3",
+                    "v2": "Point2"
+                },
+                {
+                    "v1": "Point3",
+                    "v2": "Point5"
+                }
+            ]
+        }
+    ]
+}
