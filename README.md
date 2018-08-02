@@ -71,10 +71,10 @@ The default map has these fields set:
                     "v2": "Point5"
                 }
                 
-    Step 6: Once the settings are configured. Test the game and maps out in the unity editor. (Do this by pressing the play button at the top of the screen) and test the game. 
-    Step 7: In order to build the game and have it ready for distribution, go to file -> Build settings. In the build settings menu, set the platform to WebGL and click on player settings. Make sure the canvas width is set to 1500 and the height is set to 600, have the "Run in Background" option unchecked. Once those settings are set, then go back to the build settings menu and click the build option and select the folder in which the program will be built in. 
-    Step 8: Once the project is finished building, zip the file holding the program and use it to upload to itch.io, the website only needs a zipped file of the program in order to work. 
-    Step 9: Once the game is uploaded, you can then distribute the game to however many subjects you would like. 
+Step 6: Once the settings are configured. Test the game and maps out in the unity editor. (Do this by pressing the play button at the top of the screen) and test the game. 
+Step 7: In order to build the game and have it ready for distribution, go to file -> Build settings. In the build settings menu, set the platform to WebGL and click on player settings. Make sure the canvas width is set to 1500 and the height is set to 600, have the "Run in Background" option unchecked. Once those settings are set, then go back to the build settings menu and click the build option and select the folder in which the program will be built in. 
+Step 8: Once the project is finished building, zip the file holding the program and use it to upload to itch.io, the website only needs a zipped file of the program in order to work. 
+Step 9: Once the game is uploaded, you can then distribute the game to however many subjects you would like. 
     
      
  
