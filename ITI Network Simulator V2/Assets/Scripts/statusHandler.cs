@@ -104,14 +104,14 @@ public class statusHandler : MonoBehaviour {
 
     public void RedClicked()
     {
-        if(!tile.isRedActive())
+        if (!tile.isRedActive())
         {
-            if(money.isPurchaseable(200))
+            if (money.isPurchaseable(200))
             {
                 money.loseMoney(200);
-                formData.actionMade(tile.name + " - Red Tile Added");
+                formData.actionMade(tile.GetComponentInParent<RectTransform>().gameObject.name + "-" + tile.name + " - Red Tile Added");
                 tile.setRed();
-            }        
+            }
         }
         else
         {
@@ -120,7 +120,7 @@ public class statusHandler : MonoBehaviour {
                 if (money.isPurchaseable(75))
                 {
                     money.loseMoney(75);
-                    formData.actionMade(tile.name + " - Red Tile Updated");
+                    formData.actionMade(tile.GetComponentInParent<RectTransform>().gameObject.name + "-" + tile.name + " - Red Tile Updated");
                     tile.setRed();
                 }
             }
@@ -129,7 +129,7 @@ public class statusHandler : MonoBehaviour {
                 if (money.isPurchaseable(healRedPrice))
                 {
                     money.loseMoney(healRedPrice);
-                    formData.actionMade(tile.name + " - Red Tile Updated");
+                    formData.actionMade(tile.GetComponentInParent<RectTransform>().gameObject.name + "-" + tile.name + " - Red Tile Updated");
                     tile.setRed();
                 }
             }
@@ -139,7 +139,7 @@ public class statusHandler : MonoBehaviour {
 
     public void RemRedClicked()
     {
-        formData.actionMade(tile.name + " - Red Tile Removed");
+        formData.actionMade(tile.GetComponentInParent<RectTransform>().gameObject.name + "-" + tile.name + " - Red Tile Removed");
         tile.killRed();
         if (money.isPurchaseable(200))
             redButtonText.text = "Purchase Red Archer \n$200";
@@ -151,9 +151,9 @@ public class statusHandler : MonoBehaviour {
     {
         if (!tile.isBlueActive())
         {
-            if(money.isPurchaseable(100))
+            if (money.isPurchaseable(100))
             {
-                formData.actionMade(tile.name + " - Blue Tile Added");
+                formData.actionMade(tile.GetComponentInParent<RectTransform>().gameObject.name + "-" + tile.name + " - Blue Tile Added");
                 money.loseMoney(100);
                 tile.setBlue();
             }
@@ -164,7 +164,7 @@ public class statusHandler : MonoBehaviour {
     {
         if (tile.isBlueActive())
         {
-            formData.actionMade(tile.name + " - Blue Tile Removed");
+            formData.actionMade(tile.GetComponentInParent<RectTransform>().gameObject.name + "-" + tile.name + " - Blue Tile Removed");
             tile.killBlue();
             if (money.isPurchaseable(100))
                 blueButtonText.text = "Purchase Blue Archer \n$100";
@@ -175,17 +175,17 @@ public class statusHandler : MonoBehaviour {
 
     public void OrangeClicked()
     {
-        if(money.isPurchaseable(500))
+        if (money.isPurchaseable(500))
         {
             money.loseMoney(500);
 
             if (tile.isOrangeActive())
             {
-                formData.actionMade(tile.name + " - Orange Tile Updated");
+                formData.actionMade(tile.GetComponentInParent<RectTransform>().gameObject.name + "-" + tile.name + " - Orange Tile Updated");
             }
             else
             {
-                formData.actionMade(tile.name + " - Orange Tile Added");
+                formData.actionMade(tile.GetComponentInParent<RectTransform>().gameObject.name + "-" + tile.name + " - Orange Tile Added");
             }
 
             tile.setOrange();
@@ -195,7 +195,7 @@ public class statusHandler : MonoBehaviour {
 
     public void RemOrangeClicked()
     {
-        formData.actionMade(tile.name + " - Orange Tile Removed");
+        formData.actionMade(tile.GetComponentInParent<RectTransform>().gameObject.name + "-" + tile.name + " - Orange Tile Removed");
         tile.killOrange();
         if (money.isPurchaseable(500))
             orangeButtonText.text = "Purchase Orange Archer \n$500";
