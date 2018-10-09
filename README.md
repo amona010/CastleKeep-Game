@@ -46,6 +46,7 @@ The default map has these fields set:
 **List of vertices (AKA nodes) are written like so:**
 
 "vertices": 
+
 [
 
 {
@@ -115,6 +116,7 @@ The default map has these fields set:
 **Lists of edges are written like so:**
 
 "edges": 
+
 [
 
 {
@@ -134,6 +136,8 @@ The default map has these fields set:
 "v2": "Point5"
 
 }
+
+]
 
 
 Step 6: Once the settings are configured. Test the game and maps out in the unity editor. (Do this by pressing the play button at the top of the screen) and test the game. 
