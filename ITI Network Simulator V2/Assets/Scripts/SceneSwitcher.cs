@@ -39,13 +39,13 @@ public class SceneSwitcher : MonoBehaviour {
                 cam.transform.position = new Vector2(58, 0);
                 break;
             case "Page3":
-                cam.transform.position = new Vector2(87.28f, 0);
+                cam.transform.position = new Vector2(85.6f, 0);
                 break;
             case "Page4":
-                cam.transform.position = new Vector2(110.77f, 0);
+                cam.transform.position = new Vector2(112.23f, 0);
                 break;
             case "Page5":
-                cam.transform.position = new Vector2(138.48f, 0);
+                cam.transform.position = new Vector2(138.71f, 0);
                 break;
             case "Page6":
                 cam.transform.position = new Vector2(165.23f, 0);
