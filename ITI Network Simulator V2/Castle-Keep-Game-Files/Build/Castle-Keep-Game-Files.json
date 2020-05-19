@@ -1,0 +1,13 @@
+{
+"companyName": "DefaultCompany",
+"productName": "ITI Network Simulator",
+"dataUrl": "Castle-Keep-Game-Files.data.unityweb",
+"asmCodeUrl": "Castle-Keep-Game-Files.asm.code.unityweb",
+"asmMemoryUrl": "Castle-Keep-Game-Files.asm.memory.unityweb",
+"asmFrameworkUrl": "Castle-Keep-Game-Files.asm.framework.unityweb",
+"TOTAL_MEMORY": 536870912,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
